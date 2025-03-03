@@ -31,7 +31,14 @@
                   "server/messages/system",
                   "server/messages/responder"
                 ]
-              }
+              },
+              {
+                "group": "Security",
+                "icon": "message",
+                "pages": [
+                  "server/security/filters"
+                ]
+              },
             ]
           }
         ]
