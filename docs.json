@@ -24,13 +24,14 @@
           {
             "group": "Server Configuration",
             "pages": [
-              "server/messages/system-messages",
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              {
+                "group": "Messages",
+                "icon": "message",
+                "pages": [
+                  "server/messages/system",
+                  "server/messages/autoresponder"
+                ]
+              }
             ]
           }
         ]
