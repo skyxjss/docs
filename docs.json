@@ -34,7 +34,7 @@
                             },
                             {
                                 "group": "Security",
-                                "icon": "message",
+                                "icon": "shield",
                                 "pages": [
                                     "server/security/filters"
                                 ]
