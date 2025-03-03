@@ -29,7 +29,7 @@
                 "icon": "message",
                 "pages": [
                   "server/messages/system",
-                  "server/messages/autoresponder"
+                  "server/messages/responder"
                 ]
               }
             ]

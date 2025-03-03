@@ -1,5 +1,54 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "System Messages"
+description: "Automatically send messages when certain member events occur."
 ---
 
+## Commands
+
+Lunar provides two system message commands, each with the same subcommands.
+
+* `welcome `- Dispatched whenever a user joins the server.
+
+* `goodbye` - Dispatched whenever a user leaves the server.
+
+<Info>
+  The following examples use the `welcome` command, but the same syntax is applied for the other system messages commands.
+</Info>
+
+## Creating a system message
+
+You can create a system message with the `welcome add` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,welcome add (channel)
+  ```
+
+  ```javascript Example
+  ,welcome add #welcome
+  ```
+</CodeGroup>
+
+## Customizing a system message
+
+You can customize a system message with the `welcome embed` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,welcome embed (embed code)
+  ```
+
+  ```
+  ,welcome embed {embed}$v{color: 0099ff}$v{title: Welcome!}$v{description: Hello, welcome to our server!}
+  ```
+</CodeGroup>
+
+## Removing a system message
+
+You can remove a system message with the `welcome remove` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,welcome remove
+  ```
+</CodeGroup>
