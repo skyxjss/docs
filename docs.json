@@ -24,6 +24,7 @@
           {
             "group": "Server Configuration",
             "pages": [
+              "server/messages/system-messages",
               "essentials/markdown",
               "essentials/code",
               "essentials/images",
