@@ -22,7 +22,7 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Server Configuration",
             "pages": [
               "essentials/markdown",
               "essentials/code",
