@@ -1,0 +1,102 @@
+---
+title: "Filters"
+description: "Automatically deletes filtered words when they get sent."
+---
+
+## Commands
+
+There are seven filter commands that allow you to manage and customize word filtering.
+
+* `filter add`- Adds a new word to the filter list.
+
+* `filter remove` - Removes a word from the filter list.
+
+* **`filter list`** – Displays all currently filtered words.
+
+* `filter reset` - Resets all currently filtered words.
+
+* **`filter exempt add`** – Excludes a role from the filter.
+
+* **`filter exempt remove`** – Removes a role from the exemption list.
+
+* **`filter exempt list`** – Shows all roles that are exempt from filtering.
+
+## Adding a filter
+
+You can add a filter with the `filter add` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,filter add (word)
+  ```
+
+  ```javascript Example
+  ,filter add fuck
+  ```
+</CodeGroup>
+
+## Removing a filter
+
+You can remove a filter with the `filter remove` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,filter remove (word)
+  ```
+
+  ```javascript Example
+  ,filter remove fuck
+  ```
+</CodeGroup>
+
+## Listing all filters
+
+You can list all filtered words with the `filter list` command.
+
+```javascript
+,filter list
+```
+
+## Exempt roles from filters
+
+*You can exempt roles from filters with the `filter exempt add` command.*
+
+<CodeGroup>
+  ```javascript Syntax
+  ,filter exempt add (role)
+  ```
+
+  ```
+  ,filter exempt add @Admin
+  ```
+</CodeGroup>
+
+## Remove exempted roles from filters
+
+You can remove exempted roles from filters with the `filter exempt remove` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,filter exempt remove (role)
+  ```
+
+  ```javascript Example
+  ,filter exempt remove @Admin
+  ```
+</CodeGroup>
+
+## List all exempted roles
+
+You can list all exempted roles with the `filter exempt list` command.
+
+```javascript
+,filter exempt list
+```
+
+## Reset all filters
+
+You can reset all word filters with the `filter reset` command.
+
+```javascript
+,filter reset
+```
