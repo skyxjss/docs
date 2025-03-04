@@ -1,45 +1,42 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "$schema": "https://mintlify.com/schema.json",
   "name": "lunar",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "groups": [
-      {
-        "group": "Get Started",
-        "pages": [
-          "introduction"
-        ]
-      },
-      {
-        "group": "Server Configuration",
-        "groups": [
-          {
-            "group": "Messages",
-            "pages": [
-              "server/messages/system",
-              "server/messages/responder"
-            ]
-          },
-          {
-            "group": "Security",
-            "pages": [
-              "server/security/filters"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": ["introduction"]
+    },
+    {
+      "group": "Server Configuration",
+      "pages": [
+        {
+          "group": "Messages",
+          "icon": "message",
+          "pages": [
+            "server/messages/system",
+            "server/messages/responder"
+          ]
+        },
+        {
+          "group": "Security",
+          "icon": "shield",
+          "pages": [
+            "server/security/filters"
+          ]
+        }
+      ]
+    }
+  ],
   "navbar": {
     "links": [
       {
