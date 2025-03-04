@@ -1,62 +1,56 @@
 {
-    "$schema": "https://mintlify.com/docs.json",
-    "theme": "mint",
-    "name": "lunar",
-    "colors": {
-        "primary": "#c4a8e6",
-        "light": "#07C983",
-        "dark": "#15803D"
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "lunar",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "overview/introduction"
+      ]
     },
-    "favicon": "/favicon.svg",
-    "navigation": {
-        "tabs": [
-            {
-                "groups": [
-                    {
-                        "group": "Get Started",
-                        "pages": [
-                            "introduction"
-                        ]
-                    },
-                    {
-                        "group": "Server Configuration",
-                        "pages": [
-                            {
-                                "group": "Messages",
-                                "icon": "message",
-                                "pages": [
-                                    "server/messages/system",
-                                    "server/messages/responder"
-                                ]
-                            },
-                            {
-                                "group": "Security",
-                                "icon": "shield",
-                                "pages": [
-                                    "server/security/filters"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "logo": {
-        "light": "/logo/light.svg",
-        "dark": "/logo/dark.svg"
-    },
-    "navbar": {
-        "links": [
-            {
-                "label": "Support Server",
-                "href": "https://discord.gg/mV6w8pZBNk"
-            }
-        ],
-        "primary": {
-            "type": "button",
-            "label": "Home",
-            "href": "https://lunarbot.xyz"
+    {
+      "group": "Server Configuration",
+      "pages": [
+        {
+          "group": "Messages",
+          "icon": "message",
+          "pages": [
+            "server/messages/system",
+            "server/messages/responder"
+          ]
         }
+      ]
     }
+  ],
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
 }
