@@ -18,23 +18,23 @@
             "pages": [
               "introduction"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Server Configuration",
-        "groups": [
-          {
-            "group": "Messages",
-            "pages": [
-              "server/messages/system",
-              "server/messages/responder"
-            ]
           },
           {
-            "group": "Security",
-            "pages": [
-              "server/security/filters"
+            "group": "Server Configuration",
+            "groups": [
+              {
+                "group": "Messages",
+                "pages": [
+                  "server/messages/system",
+                  "server/messages/responder"
+                ]
+              },
+              {
+                "group": "Security",
+                "pages": [
+                  "server/security/filters"
+                ]
+              }
             ]
           }
         ]
