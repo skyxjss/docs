@@ -9,34 +9,28 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Lunar",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction"
-            ]
-          },
-          {
-            "group": "Server Configuration",
-            "groups": [
-              {
-                "group": "Messages",
-                "pages": [
-                  "server/messages/system",
-                  "server/messages/responder"
-                ]
-              },
-              {
-                "group": "Security",
-                "pages": [
-                  "server/security/filters"
-                ]
-              }
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Server Configuration",
+        "pages": []
+      },
+      {
+        "group": "Messages",
+        "pages": [
+          "server/messages/system",
+          "server/messages/responder"
+        ]
+      },
+      {
+        "group": "Security",
+        "pages": [
+          "server/security/filters"
         ]
       }
     ]
