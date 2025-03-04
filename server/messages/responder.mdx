@@ -1,5 +1,41 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: "Auto Responders"
+description: "Automatically respond to trigger messages."
 ---
 
+## Creating an auto responder
+
+You can create an auto responder with the `autoresponder add` command.
+
+<Warning>
+  The **trigger** and **response** must be separated by a comma (`,`).
+</Warning>
+
+<Tip>
+  The `response` parameter can be raw text or an [embed](https://docs.bleed.bot/resources/scripting) with dynamic [variables](https://docs.bleed.bot/resources/scripting/variables).
+</Tip>
+
+<CodeGroup>
+  ```javascript Syntax
+  ,autoresponder add (trigger, response)
+  ```
+
+  ```javascript Example
+  ,autoresponder add hi, Hello!
+  ,autoresponder add hi, {embed}$v{description: Hello! {user}}
+  ```
+</CodeGroup>
+
+## Removing an auto responder
+
+You can remove an auto responder with the `autoresponder remove` command.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,autoresponder remove (trigger)
+  ```
+
+  ```javascript Example
+  ,autoresponder remove hi
+  ```
+</CodeGroup>
