@@ -5,11 +5,7 @@
   "colors": {
     "primary": "#658a95",
     "light": "#95b6bd",
-    "dark": "#658a95",
-    "anchors": {
-      "from": "#658a95",
-      "to": "#95b6bd"
-    }
+    "dark": "#658a95"
   },
   "modeToggle": {
     "default": "dark",
@@ -35,14 +31,8 @@
     {
       "group": "Server Configuration",
       "pages": [
-        {
-          "group": "Messages",
-          "icon": "message",
-          "pages": [
-            "server/messages/system",
-            "server/messages/responder"
-          ]
-        }
+        "server/messages/system",
+        "server/messages/responder"
       ]
     }
   ]
