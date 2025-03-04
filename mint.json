@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/mint.json"
+  "$schema": "https://mintlify.com/mint.json",
   "name": "lunar",
   "logo": {
     "dark": "/logo/dark.svg",
