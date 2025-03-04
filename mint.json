@@ -33,6 +33,18 @@
           "pages": [
             "server/security/filters"
           ]
+        },
+        {
+          "group": "Resources",
+          "pages": [
+            {
+              "group": "Scripting",
+              "icon": "scroll",
+              "pages": [
+                "resources/scripting/embeds"
+              ]
+            }
+          ]
         }
       ]
     }
