@@ -1,67 +1,69 @@
 {
-  "$schema": "https://mintlify.com/mint.json",
-  "name": "lunar",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction"]
+    "$schema": "https://mintlify.com/mint.json",
+    "name": "lunar",
+    "logo": {
+        "dark": "/logo/dark.svg",
+        "light": "/logo/light.svg"
     },
-    {
-      "group": "Server Configuration",
-      "pages": [
+    "favicon": "/favicon.svg",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "navigation": [
         {
-          "group": "Messages",
-          "icon": "message",
-          "pages": [
-            "server/messages/system",
-            "server/messages/responder"
-          ]
+            "group": "Get Started",
+            "pages": [
+                "introduction"
+            ]
         },
         {
-          "group": "Security",
-          "icon": "shield",
-          "pages": [
-            "server/security/filters"
-          ]
+            "group": "Server Configuration",
+            "pages": [
+                {
+                    "group": "Messages",
+                    "icon": "message",
+                    "pages": [
+                        "server/messages/system",
+                        "server/messages/responder"
+                    ]
+                },
+                {
+                    "group": "Security",
+                    "icon": "shield",
+                    "pages": [
+                        "server/security/filters"
+                    ]
+                }
+            ]
         },
         {
-          "group": "Resources",
-          "pages": [
-            {
-              "group": "Scripting",
-              "icon": "scroll",
-              "pages": [
-                "resources/scripting/embeds"
-              ]
-            }
-          ]
+            "group": "Resources",
+            "pages": [
+                {
+                    "group": "Scripting",
+                    "icon": "scroll",
+                    "pages": [
+                        "resources/scripting/embeds"
+                    ]
+                }
+            ]
         }
-      ]
+    ],
+    "topbarLinks": [
+        {
+            "name": "Support Server",
+            "url": "https://discord.gg/mV6w8pZBNk"
+        }
+    ],
+    "topbarCtaButton": {
+        "name": "Home",
+        "url": "https://lunarbot.xyz"
+    },
+    "footerSocials": {
+        "x": "https://x.com/mintlify",
+        "github": "https://github.com/mintlify",
+        "linkedin": "https://linkedin.com/company/mintlify"
     }
-  ],
-  "topbarLinks": [
-    {
-      "name": "Support Server",
-      "url": "https://discord.gg/mV6w8pZBNk"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Home",
-    "url": "https://lunarbot.xyz"
-  },
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
 }
