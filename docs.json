@@ -14,7 +14,7 @@
   "modeToggle": {
     "default": "dark",
     "isHidden": true
-  }
+  },
   "topbarLinks": [
     {
       "name": "Support Server",
@@ -28,7 +28,9 @@
   "navigation": [
     {
       "group": "Overview",
-      "pages": ["overview/introduction"]
+      "pages": [
+        "overview/introduction"
+      ]
     },
     {
       "group": "Server Configuration",
@@ -42,6 +44,6 @@
           ]
         }
       ]
-    },
-  ],
+    }
+  ]
 }
