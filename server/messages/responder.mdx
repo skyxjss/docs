@@ -17,14 +17,20 @@ You can create an auto responder with the `autoresponder add` command.
 
 <CodeGroup>
   ```javascript Syntax
-  ,autoresponder add (trigger, response)
+  ,autoresponder add (trigger, response) [--flags]
   ```
 
   ```javascript Example
   ,autoresponder add hi, Hello!
   ,autoresponder add hi, {embed}$v{description: Hello! {user}}
   ```
+
+  ```javascript Example with flags
+  ,autoresponder add hi, Hey! --reply
+  ```
 </CodeGroup>
+
+![](/images/autoresponderAdd.png)
 
 ## Removing an auto responder
 
