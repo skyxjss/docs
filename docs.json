@@ -1,39 +1,68 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "lunar",
+  "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#658a95",
-    "light": "#95b6bd",
-    "dark": "#658a95"
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
   },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": true
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Lunar",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Server Configuration",
+        "groups": [
+          {
+            "group": "Messages",
+            "pages": [
+              "server/messages/system",
+              "server/messages/responder"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "server/security/filters"
+            ]
+          }
+        ]
+      }
+    ]
   },
-  "topbarLinks": [
-    {
-      "name": "Support Server",
-      "url": "https://discord.gg/bleed"
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support Server",
+        "href": "https://discord.gg/mV6w8pZBNk"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Home",
+      "href": "https://lunarbot.xyz"
     }
-  ],
-  "topbarCtaButton": {
-    "name": "Home",
-    "url": "https://bleed.bot"
   },
-  "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "overview/introduction"
-      ]
-    },
-    {
-      "group": "Server Configuration",
-      "pages": [
-        "server/messages/system",
-        "server/messages/responder"
-      ]
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
     }
-  ]
+  }
 }
