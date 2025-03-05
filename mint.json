@@ -35,10 +35,16 @@
                     "pages": [
                         "server/security/filters"
                     ]
+                },
+              {
+                    "group": "Logging",
+                    "icon": "file-text",
+                    "pages": [
+                        "server/logging"
+                    ]
                 }
             ]
         },
-      "server/logging",
         {
             "group": "Resources",
             "pages": [
