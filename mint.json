@@ -11,6 +11,10 @@
         "light": "#07C983",
         "dark": "#15803D"
     },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
     "navigation": [
         {
             "group": "Get Started",
