@@ -2,8 +2,8 @@
     "$schema": "https://mintlify.com/mint.json",
     "name": "lunar",
     "logo": {
-        "dark": "/favicon.png",
-        "light": "/favicon.png"
+        "dark": "https://lunarbot.xyz/commands/icons/lunar.svg",
+        "light": "https://lunarbot.xyz/commands/icons/lunar.svg"
     },
     "favicon": "/favicon.png",
     "colors": {
