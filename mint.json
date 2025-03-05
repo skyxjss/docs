@@ -38,6 +38,7 @@
                 }
             ]
         },
+      "server/logging",
         {
             "group": "Resources",
             "pages": [
