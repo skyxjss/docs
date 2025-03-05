@@ -36,10 +36,7 @@
                         "server/security/filters"
                     ]
                 },
-                {
-                    "page": "server/logging",
-                    "icon": "fas fa-clipboard-list"
-                }
+              "server/logging"
             ]
         },
         {
