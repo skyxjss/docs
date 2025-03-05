@@ -9,12 +9,12 @@
     "colors": {
         "primary": "#658a95",
         "light": "#95b6bd",
-        "dark": "#658a95",
+        "dark": "#658a95"
     },
-  "modeToggle": {
-    "default": "dark",
-    "isHidden": true
-  },
+    "modeToggle": {
+        "default": "dark",
+        "isHidden": true
+    },
     "navigation": [
         {
             "group": "Get Started",
@@ -40,7 +40,7 @@
                         "server/security/filters"
                     ]
                 },
-              "server/logging"
+                "server/logging"
             ]
         },
         {
