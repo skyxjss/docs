@@ -2,10 +2,10 @@
     "$schema": "https://mintlify.com/mint.json",
     "name": "lunar",
     "logo": {
-        "dark": "/logo/dark.svg",
-        "light": "/logo/light.svg"
+        "dark": "/favicon.png",
+        "light": "/favicon.png"
     },
-    "favicon": "/favicon.svg",
+    "favicon": "/favicon.png",
     "colors": {
         "primary": "#16A34A",
         "light": "#07C983",
