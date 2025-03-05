@@ -11,9 +11,7 @@ These variables are accessible throughout lunar and can be used in any command c
     | --------------------------------- | -------------------------------------------------------------------- |
     | `{guild.name}`                    | The guild's name                                                     |
     | `{guild.id}`                      | The guild's ID                                                       |
-    | `{guild.count}`                   | The guild's member count                                             |
-    | `{guild.region}`                  | The guild's voice region                                             |
-    | `{guild.shard}`                   | The guild's shard ID on bot                                          |
+    | `{guild.memberCount}`             | The guild's member count                                             |
     | `{guild.owner_id}`                | The guild's owner ID                                                 |
     | `{guild.created_at}`              | The guild's creation date in UTC                                     |
     | `{guild.created_at_timestamp}`    | The guild's creation date in UNIX                                    |
@@ -43,32 +41,17 @@ These variables are accessible throughout lunar and can be used in any command c
   </Tab>
 
   <Tab title="User">
-    | Variable                       | Output                                                 |
-    | ------------------------------ | ------------------------------------------------------ |
-    | `{user}`                       | The user's name and discriminator                      |
-    | `{user.id}`                    | The user's ID                                          |
-    | `{user.mention}`               | The user's mention                                     |
-    | `{user.name}`                  | The user's name                                        |
-    | `{user.tag}`                   | The user's discriminator                               |
-    | `{user.avatar}`                | The user's profile picture                             |
-    | `{user.guild_avatar}`          | The user's guild profile picture                       |
-    | `{user.display_avatar}`        | The user's available profile picture                   |
-    | `{user.joined_at}`             | The user's guild join date in UTC                      |
-    | `{user.joined_at_timestamp}`   | The user's guild join date in UNIX                     |
-    | `{user.created_at}`            | The user's account creation date in UTC                |
-    | `{user.created_at_timestamp}`  | The user's account creation date in UNIX               |
-    | `{user.display_name}`          | The user's current display name                        |
-    | `{user.boost}`                 | `Yes`/`No` if the user is boosting the guild           |
-    | `{user.boost_since}`           | The user's initial guild boost date                    |
-    | `{user.boost_since_timestamp}` | The user's initial guild boost date in UNIX            |
-    | `{user.color}`                 | The user's top role hex code                           |
-    | `{user.top_role}`              | The user's top role name, defaults to N/A              |
-    | `{user.role_list}`             | The user's role list (possibly `N/A`)                  |
-    | `{user.role_text_list}`        | The user's role list in text (possibly `N/A`)          |
-    | `{user.bot}`                   | `Yes`/`No` if the user is a bot                        |
-    | `{user.badges_icons}`          | The user's profile badges with emotes (possibly `N/A`) |
-    | `{user.badges}`                | The user's profile badges in text (possibly `N/A`)     |
-    | `{user.join_position}`         | The user's join position                               |
-    | `{user.join_position_suffix}`  | The user's join position with suffix                   |
+    | Variable                      | Output                                   |
+    | ----------------------------- | ---------------------------------------- |
+    | `{user}`                      | The user's mention                       |
+    | `{user.id}`                   | The user's ID                            |
+    | `{user.name}`                 | The user's name                          |
+    | `{user.avatar}`               | The user's profile picture               |
+    | `{user.banner}`               | The user's profile banner                |
+    | `{user.tag}`                  | The user's discriminator                 |
+    | `{user.created_at}`           | The user's account creation date in UTC  |
+    | `{user.created_at_timestamp}` | The user's account creation date in UNIX |
+    | `{user.color}`                | The user's top role hex code             |
+    | `{user.bot}`                  | `Yes`/`No` if the user is a bot          |
   </Tab>
 </Tabs>
