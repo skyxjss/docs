@@ -8,7 +8,7 @@
     "favicon": "/favicon.png",
     "colors": {
         "primary": "#c4a8e6",
-        "light": "#95b6bd",
+        "light": "#c4a8e6",
         "dark": "#c4a8e6"
     },
     "modeToggle": {
