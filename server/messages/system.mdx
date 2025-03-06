@@ -16,40 +16,26 @@ Lunar provides two system message commands, each with the same subcommands.
   The following examples use the `welcome` command, but the same syntax is applied for the other system messages commands.
 </Info>
 
-<Note>
-  The `goodbye` system hasn't been finished yet. Once it's finished it will still have the same syntax as the `welcome` command.
-</Note>
-
 ## Creating a system message
 
 You can create a system message with the `welcome add` command.
 
 <CodeGroup>
   ```javascript Syntax
-  ,welcome add (channel)
+  ,welcome add (channel) (message)
   ```
 
   ```javascript Example
-  ,welcome add #welcome
-  ```
-</CodeGroup>
-
-## Customizing a system message
-
-You can customize a system message with the `welcome embed` command.
-
-<CodeGroup>
-  ```javascript Syntax
-  ,welcome embed (embed code)
-  ```
-
-  ```javascript Example
-  ,welcome embed {embed}$v{color: 0099ff}$v{title: Welcome!}$v{description: Hello, welcome to our server!}
+  ,welcome add #welcome Hello {user}!
   ```
 </CodeGroup>
 
 <Tip>
-  Learn how to `create` your own embed [here](https://docs.lunarbot.xyz/resources/scripting/embeds)
+  The `message` parameter works with `embeds` aswell.
+</Tip>
+
+<Tip>
+  Learn how to `create` your own embed [here](https://docs.lunarbot.xyz/resources/scripting/embeds).
 </Tip>
 
 ## Removing a system message
@@ -58,6 +44,18 @@ You can remove a system message with the `welcome remove` command.
 
 <CodeGroup>
   ```javascript Syntax
-  ,welcome remove
+  ,welcome remove (channel)
+  ```
+
+  ```javascript Filename
+  ,welcome remove #welcome
   ```
 </CodeGroup>
+
+## View system messages
+
+You can view system message with the `welcome list` command.
+
+```javascript
+,welcome list
+```
