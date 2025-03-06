@@ -19,7 +19,8 @@
         {
             "group": "Get Started",
             "pages": [
-                "overview/introduction"
+                "overview/introduction",
+                "overview/premium"
             ]
         },
         {
