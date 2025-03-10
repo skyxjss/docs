@@ -43,7 +43,7 @@
                 },
               {
                     "group": "Roles",
-                    "icon": "shield",
+                    "icon": "users-gear",
                     "pages": [
                         "server/roles/vanity"
                     ]
