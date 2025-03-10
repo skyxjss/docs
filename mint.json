@@ -41,6 +41,13 @@
                         "server/security/filters"
                     ]
                 },
+              {
+                    "group": "Roles",
+                    "icon": "shield",
+                    "pages": [
+                        "server/roles/vanity"
+                    ]
+                },
                 "server/logging"
             ]
         },
