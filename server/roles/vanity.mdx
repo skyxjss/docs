@@ -1,0 +1,46 @@
+---
+title: "Vanity Roles"
+description: "Reward your members for advertising your server in their status."
+---
+
+## Setting the vanity to be monitored
+
+You'll need to set what vanity you want to monitor. You can do this by using the `vanity set` command.
+
+<Tip>
+  It’s recommended to prefix the substring with a `/` (e.g. `/lunar`).
+</Tip>
+
+<CodeGroup>
+  ```javascript Syntax
+  ,vanity set (substring)
+  ```
+
+  ```javascript Example
+  ,vanity set /lunar
+  ```
+</CodeGroup>
+
+![](/images/vanitySet.png)
+
+## Setting up roles to reward
+
+You can use the `vanity role add` command to add a vanity reward.
+
+<Info>
+  If you no longer want to reward a role for a vanity, you can use the `vanity role remove` command.
+</Info>
+
+<CodeGroup>
+  ```javascript Syntax
+  ,vanity role add (role)
+  ,vanity role remove (role)
+  ```
+
+  ```javascript Example
+  ,vanity role add @Vanity
+  ,vanity role remove @Vanity
+  ```
+</CodeGroup>
+
+![](/images/roleadd.png)
