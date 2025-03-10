@@ -44,3 +44,56 @@ You can use the `vanity role add` command to add a vanity reward.
 </CodeGroup>
 
 ![](/images/roleadd.png)
+
+## Viewing all roles being rewarded
+
+You can use the `vanity role list` command to view all roles being rewarded.
+
+![](/images/roleslist.png)
+
+## Setting up the award message
+
+You can set a thank you message for when a user advertises your server in their status.
+
+<Info>
+  The `message` parameter can be raw text or an [embed](https://docs.lunarbot.xyz/resources/scripting) with dynamic [variables](https://docs.lunarbot.xyz/resources/scripting/variables).
+</Info>
+
+<CodeGroup>
+  ```javascript Syntax
+  ,vanity message (message)
+  ```
+
+  ```javascript Example
+  ,vanity message thank you {user}
+  ,vanity message {embed}$v{message: {user}}$v{description: thank you for advertising our server!}
+  ```
+</CodeGroup>
+
+## Setting where the message is sent
+
+You can use the`vanity award channel` command to set where the message is sent.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,vanity award channel (channel)
+  ```
+
+  ```javascript Example
+  ,vanity award channel #general
+  ```
+</CodeGroup>
+
+## Setting up the log channel
+
+You can use the`vanity log channel` command to log when a user adds or removes the vanity from their status.
+
+<CodeGroup>
+  ```javascript Syntax
+  ,vanity log channel (channel)
+  ```
+
+  ```javascript Example
+  ,vanity log channel #logs
+  ```
+</CodeGroup>
